@@ -14,6 +14,3 @@ addons:
 before_install: bin/setup
 before_script: bundle exec rake spec:setup
 after_script: bundle exec codeclimate-test-reporter
-branches:
-  only:
-  - dev-merge-231018
